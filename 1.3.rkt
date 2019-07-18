@@ -9,7 +9,8 @@
     ((> x y z) (sumSquares x y))
     ((> y z x) (sumSquares y z))
     ((> z x y) (sumSquares z x))
+    (else (sumSquares x x))
   )
 )
 
-(sumSquareTwoLargest 8 7 6)
+(sumSquareTwoLargest 6 6 2)
